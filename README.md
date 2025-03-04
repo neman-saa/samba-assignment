@@ -8,6 +8,6 @@ f[M[_]: Monad, A, B]: (A => M[B]) => D[A] => M[D[B]],
 such that
 
 f[Id](identity) = identity,
-f[Option](Some(_)) = Some(_),
+f [Option](Some(_)) = Some(_),
 
 where Id[A] = A.
